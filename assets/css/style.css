@@ -80,7 +80,6 @@
 #skills .container-skills #skill-wrap #other #otherSkills .os-wrap {
   width: 30%;
   padding: 20px;
-  height: 280px;
   background-color: #242426;
   text-align: center;
   margin-bottom: 20px;
@@ -94,6 +93,10 @@
   text-transform: uppercase;
   text-align: center;
   font-size: 13px;
+  margin-bottom: 20px;
+}
+#skills .container-skills #skill-wrap #other #otherSkills .os-wrap p {
+  text-align: justify;
 }
 
 * {
@@ -288,8 +291,8 @@ header nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-.dblock {
-  display: block;
+.marginLeft {
+  margin-left: 50px;
 }
 
 #about {
@@ -308,7 +311,6 @@ header nav ul li a:hover {
 #about .container-about #me img {
   box-shadow: 3px 3px 10px 0px #FFD700;
   width: 225px;
-  margin-right: 60px;
 }
 #about .container-about .desc p {
   font-size: 16px;

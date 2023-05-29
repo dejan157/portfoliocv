@@ -87,7 +87,6 @@ $gold: #FFD700;
 			.os-wrap {
 			  width: 30%;
 			  padding: 20px;
-			  height: 280px;
 			  background-color: $medium;
 			  text-align: center;
 			  margin-bottom: 20px;
@@ -100,6 +99,10 @@ $gold: #FFD700;
 				text-transform: uppercase;
 				text-align: center;
 				font-size: 13px;
+				margin-bottom: 20px;
+			  }
+			  p{
+				text-align: justify;
 			  }
 			}
 		  }
@@ -284,13 +287,13 @@ header{
 		}
 	}
 }
-.dblock{
-	display: block;
+.marginLeft{
+	margin-left: 50px;
 }
 #about{
 	width: 75%;
 	margin:0px auto;
-	padding: 100px 0px;
+	padding: 100px 0px;	
 	.container-about{
 		display: flex;
 		justify-content: center;
@@ -302,7 +305,6 @@ header{
 			img{
 				box-shadow:3px 3px 10px 0px $gold;
 				width: 225px;
-				margin-right: 60px;
 			}
 		}
 		.desc{

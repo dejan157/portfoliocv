@@ -4,30 +4,16 @@ $light:#4f4d4d;
 $gold: #FFD700;
 @media screen and (max-width: 1696px){
     #about{
-        height:1000px;
+        width: 100%;
         .container-about{
-            justify-content: space-between;
-            #me{
-                img{
-                    width: 40%;
-                    margin: 0px auto;
-                }
-            }
-            .desc{
-                width: 40%;
-                p{
-                    font-size:15px;
-                    text-align: center;
-                }
-                h3{
-                    font-size:18px;
-                    text-align: center;
-                }
-            }
+            justify-content: space-around;
             .line{
-                display: none;
+                margin:0px 10px;
             }
         }
+    }
+    .marginLeft{
+        margin-left: 30px;
     }
     #services{
         .service{
@@ -62,31 +48,56 @@ $gold: #FFD700;
             #professional-skills {
                 width: 70%;
                 margin: 20px auto;
-              h3{
+                h3{
                 font-size: 19px;
+                text-align: center;
+                margin: 20px auto;
+                }
               }
-              }
-            }
+            
             #other {
               width: 100%;
               margin: 0px auto;
+              h3{
+                font-size: 20px;
+                text-align: center;
+                margin: 20px auto;
+              }
               #otherSkills {
                 width: 100%;
                 .os-wrap {
-                  width: 30%;
-                  padding: 20px;
-                  i{
+                    width: 60%;
+                    padding: 20px;
+                    i{
                     font-size: 25px;
-                  }
+                    }
                 }
               }
             }
           }
         }
-      }
+     }
+}
 @media screen and (max-width: 1249px) {
-    #services{
-        width: 100%;
+    #about{  
+        .container-about{
+            display: flex;
+		    justify-content: space-around;
+  	 	    align-items: center;
+            #me{
+                width: 90%;
+                margin: 40px auto;
+                img{
+                    box-shadow:3px 3px 10px 0px $gold;
+                    width: 30%;
+                }
+            }
+            .desc{
+                h3{
+                    font-size:17px;
+                }
+            }
+        }
     }
 }
 @media screen and (max-width: 1175px) {
@@ -178,6 +189,28 @@ $gold: #FFD700;
                     font-size: 30px;
                 }
         }
+    }
+    #about{  
+        .container-about{
+            flex-direction: column;
+            #me{
+                width: 90%;
+                margin: 40px auto;
+                img{
+                    width: 200px;
+                    margin: 0px auto;
+                }
+            }
+            .line{
+                width: 250px;
+                height: 2px;
+                display: block;
+                margin: 10px auto;
+            }
+        }
+    }
+    .marginLeft{
+        margin-left: 0px;
     }
     #services{
         .service{

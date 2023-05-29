@@ -1,27 +1,15 @@
 @media screen and (max-width: 1696px) {
   #about {
-    height: 1000px;
+    width: 100%;
   }
   #about .container-about {
-    justify-content: space-between;
-  }
-  #about .container-about #me img {
-    width: 40%;
-    margin: 0px auto;
-  }
-  #about .container-about .desc {
-    width: 40%;
-  }
-  #about .container-about .desc p {
-    font-size: 15px;
-    text-align: center;
-  }
-  #about .container-about .desc h3 {
-    font-size: 18px;
-    text-align: center;
+    justify-content: space-around;
   }
   #about .container-about .line {
-    display: none;
+    margin: 0px 10px;
+  }
+  .marginLeft {
+    margin-left: 30px;
   }
   #services .service {
     display: flex;
@@ -54,25 +42,45 @@
   }
   #skills .container-skills #skill-wrap #professional-skills h3 {
     font-size: 19px;
+    text-align: center;
+    margin: 20px auto;
   }
-  #skills .container-skills #other {
+  #skills .container-skills #skill-wrap #other {
     width: 100%;
     margin: 0px auto;
   }
-  #skills .container-skills #other #otherSkills {
+  #skills .container-skills #skill-wrap #other h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  #skills .container-skills #skill-wrap #other #otherSkills {
     width: 100%;
   }
-  #skills .container-skills #other #otherSkills .os-wrap {
-    width: 30%;
+  #skills .container-skills #skill-wrap #other #otherSkills .os-wrap {
+    width: 60%;
     padding: 20px;
   }
-  #skills .container-skills #other #otherSkills .os-wrap i {
+  #skills .container-skills #skill-wrap #other #otherSkills .os-wrap i {
     font-size: 25px;
   }
 }
 @media screen and (max-width: 1249px) {
-  #services {
-    width: 100%;
+  #about .container-about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #about .container-about #me {
+    width: 90%;
+    margin: 40px auto;
+  }
+  #about .container-about #me img {
+    box-shadow: 3px 3px 10px 0px #FFD700;
+    width: 30%;
+  }
+  #about .container-about .desc h3 {
+    font-size: 17px;
   }
 }
 @media screen and (max-width: 1175px) {
@@ -137,6 +145,26 @@
 @media screen and (max-width: 851px) {
   #author #description h2 {
     font-size: 30px;
+  }
+  #about .container-about {
+    flex-direction: column;
+  }
+  #about .container-about #me {
+    width: 90%;
+    margin: 40px auto;
+  }
+  #about .container-about #me img {
+    width: 200px;
+    margin: 0px auto;
+  }
+  #about .container-about .line {
+    width: 250px;
+    height: 2px;
+    display: block;
+    margin: 10px auto;
+  }
+  .marginLeft {
+    margin-left: 0px;
   }
   #services .service {
     width: 85%;
