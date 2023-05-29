@@ -1,0 +1,223 @@
+$dark:#1a1919;
+$medium:#242426;
+$light:#4f4d4d;
+$gold: #FFD700;
+@media screen and (max-width: 1696px){
+    #about{
+        height:1000px;
+        .container-about{
+            #me{
+                img{
+                    box-shadow:3px 3px 10px 0px $gold;
+                    width: 225px;
+                    margin-right: 60px;
+                }
+            }
+            .desc{
+                p{
+                    font-size:15px;
+                }
+                h3{
+                    font-size:18px;
+                }
+            }
+            .line{
+                display: none;
+            }
+        }
+    }
+    #services{
+        height: 900px;
+        .service{
+            display:flex;
+            justify-content:space-around;
+            margin:0px auto;
+            flex-wrap:wrap;
+            .serv{
+                width:40%;
+                margin: 10px 0px;
+            }
+            p{
+                font-size:13px;
+            }
+            h3{
+                font-size:16px;
+            }
+        }
+    }
+    #projects{
+        .project{
+            .pro{
+                width:45%;
+            }       
+        }
+    }
+    #skills {
+        .container-skills {
+          width: 80%;
+          #skill-wrap {
+            flex-direction: column;
+            #professional-skills {
+                width: 70%;
+                margin: 20px auto;
+              h3{
+                font-size: 19px;
+              }
+              }
+            }
+            #other {
+              width: 100%;
+              margin: 0px auto;
+              #otherSkills {
+                width: 100%;
+                .os-wrap {
+                  width: 30%;
+                  padding: 20px;
+                  i{
+                    font-size: 25px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+@media screen and (max-width: 1249px) {
+    #services{
+        height: 970px;
+    }
+}
+@media screen and (max-width: 1175px) {
+    header{
+        #logo{
+            img{
+                width:45px;
+                margin-left:20px;
+                margin-top: 15px;
+            }
+        }
+        nav{
+            margin-right: 20px;
+            ul li{
+                margin-left: 10px;
+                font-size: 13px;
+            }
+        }
+    }
+    #author{
+        #description{
+                h2{
+                    font-size: 40px;
+                }
+                .btn{
+                    padding: 12px 18px;
+                    font-size: 12px;
+                }
+        }
+    }
+    footer{
+        .footer-content{
+            width:100%;
+            .content{
+                .links{
+                    .link{
+                        a{
+                        font-size:17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1076px) {
+    #services{
+        .service{
+        font-size: 45px;
+            p{
+                font-size:11px;
+            }
+            h3{
+                font-size:14px;
+            }
+        }
+        
+    }
+    #projects{
+        .project{
+            .pro{
+                width:90%;
+                margin: 40px auto;
+                img{
+                    height: 300px;
+                }
+            }       
+        }
+    }
+    .titl{
+        font-size: 17px;
+    }
+    #contact{
+        width: 100%;
+        height:750px;
+        padding: 100px 0px;
+        #forms{
+            width: 80%;
+            #submit, #reset{
+                width: 30%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 851px) {
+    #author{
+        #description{
+                h2{
+                    font-size: 30px;
+                }
+        }
+    }
+    #services{
+        height: 1500px;
+        .service{
+            width: 85%;
+            font-size:30px;
+            display:flex;
+            justify-content:space-around;
+            margin:0px auto;
+            flex-wrap:wrap;
+            .serv{
+                width:100%;
+                margin: 10px 0px;
+            }
+            p{
+                font-size:13px;
+            }
+            h3{
+                font-size:16px;
+            }
+        }
+    }
+    .titl{
+        font-size: 12px;
+    }
+    footer{
+        .footer-content{
+            width:100%;
+            .content{
+                .copyright {
+                    p{
+                        font-size: 12px;
+                    }
+                }
+                .links{
+                    .link{
+                        a{
+                        font-size:12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

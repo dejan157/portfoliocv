@@ -1,0 +1,170 @@
+@media screen and (max-width: 1696px) {
+  #about {
+    height: 1000px;
+  }
+  #about .container-about #me img {
+    box-shadow: 3px 3px 10px 0px #FFD700;
+    width: 225px;
+    margin-right: 60px;
+  }
+  #about .container-about .desc p {
+    font-size: 15px;
+  }
+  #about .container-about .desc h3 {
+    font-size: 18px;
+  }
+  #about .container-about .line {
+    display: none;
+  }
+  #services {
+    height: 900px;
+  }
+  #services .service {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    flex-wrap: wrap;
+  }
+  #services .service .serv {
+    width: 40%;
+    margin: 10px 0px;
+  }
+  #services .service p {
+    font-size: 13px;
+  }
+  #services .service h3 {
+    font-size: 16px;
+  }
+  #projects .project .pro {
+    width: 45%;
+  }
+  #skills .container-skills {
+    width: 80%;
+  }
+  #skills .container-skills #skill-wrap {
+    flex-direction: column;
+  }
+  #skills .container-skills #skill-wrap #professional-skills {
+    width: 70%;
+    margin: 20px auto;
+  }
+  #skills .container-skills #skill-wrap #professional-skills h3 {
+    font-size: 19px;
+  }
+  #skills .container-skills #other {
+    width: 100%;
+    margin: 0px auto;
+  }
+  #skills .container-skills #other #otherSkills {
+    width: 100%;
+  }
+  #skills .container-skills #other #otherSkills .os-wrap {
+    width: 30%;
+    padding: 20px;
+  }
+  #skills .container-skills #other #otherSkills .os-wrap i {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1249px) {
+  #services {
+    height: 970px;
+  }
+}
+@media screen and (max-width: 1175px) {
+  header #logo img {
+    width: 45px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  header nav {
+    margin-right: 20px;
+  }
+  header nav ul li {
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  #author #description h2 {
+    font-size: 40px;
+  }
+  #author #description .btn {
+    padding: 12px 18px;
+    font-size: 12px;
+  }
+  footer .footer-content {
+    width: 100%;
+  }
+  footer .footer-content .content .links .link a {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1076px) {
+  #services .service {
+    font-size: 45px;
+  }
+  #services .service p {
+    font-size: 11px;
+  }
+  #services .service h3 {
+    font-size: 14px;
+  }
+  #projects .project .pro {
+    width: 90%;
+    margin: 40px auto;
+  }
+  #projects .project .pro img {
+    height: 300px;
+  }
+  .titl {
+    font-size: 17px;
+  }
+  #contact {
+    width: 100%;
+    height: 750px;
+    padding: 100px 0px;
+  }
+  #contact #forms {
+    width: 80%;
+  }
+  #contact #forms #submit, #contact #forms #reset {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 851px) {
+  #author #description h2 {
+    font-size: 30px;
+  }
+  #services {
+    height: 1500px;
+  }
+  #services .service {
+    width: 85%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    flex-wrap: wrap;
+  }
+  #services .service .serv {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  #services .service p {
+    font-size: 13px;
+  }
+  #services .service h3 {
+    font-size: 16px;
+  }
+  .titl {
+    font-size: 12px;
+  }
+  footer .footer-content {
+    width: 100%;
+  }
+  footer .footer-content .content .copyright p {
+    font-size: 12px;
+  }
+  footer .footer-content .content .links .link a {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
