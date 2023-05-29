@@ -2,22 +2,26 @@
   #about {
     height: 1000px;
   }
+  #about .container-about {
+    justify-content: space-between;
+  }
   #about .container-about #me img {
-    box-shadow: 3px 3px 10px 0px #FFD700;
-    width: 225px;
-    margin-right: 60px;
+    width: 40%;
+    margin: 0px auto;
+  }
+  #about .container-about .desc {
+    width: 40%;
   }
   #about .container-about .desc p {
     font-size: 15px;
+    text-align: center;
   }
   #about .container-about .desc h3 {
     font-size: 18px;
+    text-align: center;
   }
   #about .container-about .line {
     display: none;
-  }
-  #services {
-    height: 900px;
   }
   #services .service {
     display: flex;
@@ -68,7 +72,7 @@
 }
 @media screen and (max-width: 1249px) {
   #services {
-    height: 970px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1175px) {
@@ -133,9 +137,6 @@
 @media screen and (max-width: 851px) {
   #author #description h2 {
     font-size: 30px;
-  }
-  #services {
-    height: 1500px;
   }
   #services .service {
     width: 85%;
