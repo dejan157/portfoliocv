@@ -352,9 +352,22 @@ header{
 				width: 100%;
 				height: 230px;
 			}
+			.alt{
+				width: 100%;
+				text-align: center;
+				color: #fff;
+				background-color: $dark;
+				padding: 10px;
+				h3{
+					margin-bottom: 10px;
+				}
+			}
 		}
 			
 	}
+}
+.goldopacity{
+	background: rgba(255, 215, 0, 0.5)
 }
 #contact{
 	width: 100%;

@@ -86,10 +86,11 @@ $gold: #FFD700;
   	 	    align-items: center;
             #me{
                 width: 90%;
-                margin: 40px auto;
                 img{
                     box-shadow:3px 3px 10px 0px $gold;
-                    width: 30%;
+                    width: 25%;
+                    display: block;
+                    margin: 40px auto;
                 }
             }
             .desc{
@@ -153,20 +154,15 @@ $gold: #FFD700;
             h3{
                 font-size:14px;
             }
-        }
-        
-    }
-    #projects{
-        .project{
-            .pro{
-                width:90%;
-                margin: 40px auto;
-                img{
-                    height: 300px;
-                }
-            }       
-        }
-    }
+        } 
+}
+    #projects .project .pro{
+            width:70%;
+            margin: 40px auto;
+            img{
+                height: 300px;
+            }
+         }       
     .titl{
         font-size: 17px;
     }
@@ -192,20 +188,26 @@ $gold: #FFD700;
     }
     #about{  
         .container-about{
-            flex-direction: column;
+            flex-direction: row;
             #me{
-                width: 90%;
-                margin: 40px auto;
+                width: 50%;
+                margin: 0px auto;
                 img{
-                    width: 200px;
-                    margin: 0px auto;
+                    width: 60%;
+                    margin: 30px auto;
+                }
+            }
+            .desc{
+                width: 50%;
+                p{
+                    text-align: center;
+                }
+                h3{
+                    text-align: center;
                 }
             }
             .line{
-                width: 250px;
-                height: 2px;
-                display: block;
-                margin: 10px auto;
+                display: none;
             }
         }
     }
@@ -253,5 +255,40 @@ $gold: #FFD700;
                 }
             }
         }
+    }
+}
+@media screen and (max-width: 660px){
+    #about{  
+        .container-about{
+            flex-direction: column;
+            #me{
+                width: 50%;
+                margin: 0px auto;
+                img{
+                    width: 80%;
+                    margin: 30px auto;
+                }
+            }
+            .desc{
+                width: 50%;
+                p{
+                    text-align: start;
+                    font-size: 14px;
+                }
+                h3{
+                    text-align: start;
+                    font-size:16px;
+                }
+            }
+            .line{
+                display: block;
+                height: 2px;
+                width: 250px;
+                margin: 20px auto;
+            }
+        }
+    }
+    .titl{
+        font-size: 7px;
     }
 }

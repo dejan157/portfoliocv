@@ -358,6 +358,20 @@ header nav ul li a:hover {
   width: 100%;
   height: 230px;
 }
+#projects .project .pro .alt {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: #1a1919;
+  padding: 10px;
+}
+#projects .project .pro .alt h3 {
+  margin-bottom: 10px;
+}
+
+.goldopacity {
+  background: rgba(255, 215, 0, 0.5);
+}
 
 #contact {
   width: 100%;
