@@ -208,6 +208,9 @@
   footer .footer-content .content .links .link a {
     font-size: 12px;
   }
+  #about, #services, #projects, #skills, #contact {
+    padding: 50px 0px;
+  }
 }
 @media screen and (max-width: 660px) {
   header {
@@ -278,6 +281,20 @@
     height: 2px;
     width: 200px;
     margin: 20px auto;
+  }
+  #services .service {
+    width: 100%;
+    font-size: 20px;
+    margin: 0px auto;
+  }
+  #services .service .serv {
+    width: 90%;
+  }
+  #services .service p {
+    font-size: 12px;
+  }
+  #services .service h3 {
+    font-size: 14px;
   }
   .titl {
     width: 40%;
