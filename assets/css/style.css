@@ -364,8 +364,7 @@ header nav ul li a:hover {
 }
 
 .goldopacity {
-  background-color: #FFD700;
-  opacity: 0.5;
+  opacity: 0.1;
 }
 
 #contact {
