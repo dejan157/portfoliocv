@@ -242,6 +242,13 @@ $gold: #FFD700;
     .titl{
         font-size: 12px;
     }
+    #skills{
+        .container-skills{
+            #skill-wrap{
+                margin-top: 20px;
+            }
+        }
+    }
     footer{
         .footer-content{
             width:100%;
@@ -269,6 +276,8 @@ $gold: #FFD700;
     header{
         height:60px;
         #logo{
+            display: block;
+            margin: 0px auto;
             img{
                 width:33px;
                 margin-left:15px;
@@ -384,6 +393,24 @@ $gold: #FFD700;
             }
         }
     }
+    #skills .container-skills #skill-wrap #professional-skills{
+        width: 100%;
+    }
+    #skills .container-skills #skill-wrap #other #otherSkills .os-wrap{
+        width: 90%;
+        h4{
+            font-size: 12px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    #projects .project .pro{
+        width: 100%;
+        img{
+            height: 250px;
+        }
+    }
 }
 @media screen and (max-width: 477px){
     header{
@@ -410,4 +437,7 @@ $gold: #FFD700;
             }
         }   
     }
+}
+@media screen and (max-width: 477px){
+
 }

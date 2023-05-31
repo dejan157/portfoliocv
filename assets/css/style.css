@@ -27,7 +27,6 @@ header {
   z-index: 3;
   margin: 0px, auto;
   background-color: #1a1919;
-  height: 70px;
   width: 100%;
   border-bottom: 1px solid #FFD700;
 }
@@ -36,7 +35,8 @@ header #logo {
 }
 header #logo img {
   width: 60px;
-  margin-top: 12px;
+  margin-top: 11px;
+  margin-bottom: 11px;
   margin-left: 250px;
 }
 header nav {

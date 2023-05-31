@@ -198,6 +198,9 @@
   .titl {
     font-size: 12px;
   }
+  #skills .container-skills #skill-wrap {
+    margin-top: 20px;
+  }
   footer .footer-content {
     width: 100%;
   }
@@ -214,6 +217,10 @@
 @media screen and (max-width: 660px) {
   header {
     height: 60px;
+  }
+  header #logo {
+    display: block;
+    margin: 0px auto;
   }
   header #logo img {
     width: 33px;
@@ -314,6 +321,24 @@
   footer .footer-content .content .links .link a {
     font-size: 14px;
     margin: 10px auto;
+  }
+  #skills .container-skills #skill-wrap #professional-skills {
+    width: 100%;
+  }
+  #skills .container-skills #skill-wrap #other #otherSkills .os-wrap {
+    width: 90%;
+  }
+  #skills .container-skills #skill-wrap #other #otherSkills .os-wrap h4 {
+    font-size: 12px;
+  }
+  #skills .container-skills #skill-wrap #other #otherSkills .os-wrap p {
+    font-size: 12px;
+  }
+  #projects .project .pro {
+    width: 100%;
+  }
+  #projects .project .pro img {
+    height: 250px;
   }
 }
 @media screen and (max-width: 477px) {
