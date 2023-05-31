@@ -153,6 +153,7 @@ header nav ul li a:hover {
   width: 100%;
   background-color: #4f4d4d;
   padding: 100px 0px;
+  border-bottom: 1px solid #FFD700;
 }
 #services .service {
   display: flex;
@@ -196,9 +197,9 @@ header nav ul li a:hover {
 }
 
 #about {
-  width: 75%;
   margin: 0px auto;
   padding: 100px 0px;
+  border-bottom: 1px solid #FFD700;
 }
 #about .container-about {
   display: flex;
@@ -231,16 +232,10 @@ header nav ul li a:hover {
   margin: 0px 50px;
 }
 
-#golden {
-  height: 3px;
-  background-color: #FFD700;
-  width: 75%;
-  margin: 0px auto;
-}
-
 #skills {
   background-color: #242426;
   padding: 100px 0px;
+  border-bottom: 1px solid #FFD700;
 }
 #skills .container-skills {
   width: 75%;
@@ -340,6 +335,7 @@ header nav ul li a:hover {
   background-color: #4f4d4d;
   width: 100%;
   padding: 100px 0px;
+  border-bottom: 1px solid #FFD700;
 }
 #projects .project {
   width: 75%;
@@ -368,12 +364,14 @@ header nav ul li a:hover {
 }
 
 .goldopacity {
-  background: rgba(255, 215, 0, 0.5);
+  background-color: #FFD700;
+  opacity: 0.5;
 }
 
 #contact {
   width: 100%;
   padding: 100px 0px;
+  border-bottom: 1px solid #FFD700;
 }
 #contact #forms {
   width: 50%;

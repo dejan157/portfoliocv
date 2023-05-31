@@ -149,6 +149,7 @@ header{
 	width: 100%;
 	background-color: $light;
 	padding: 100px 0px;
+	border-bottom: 1px solid $gold;
 	.service{
 		@include flex-space-between;
 		margin:0px auto;
@@ -189,9 +190,9 @@ header{
 	margin-left: 50px;
 }
 #about{
-	width: 75%;
 	margin:0px auto;
 	padding: 100px 0px;	
+	border-bottom: 1px solid $gold;
 	.container-about{
 		display: flex;
 		justify-content: center;
@@ -227,15 +228,10 @@ header{
 		}
 	}
 }
-#golden{
-	height:3px;
-	background-color: $gold;
-	width: 75%;
-	margin: 0px auto;
-}
 #skills {
 	background-color: $medium;
 	padding: 100px 0px;
+	border-bottom: 1px solid $gold;
 	.container-skills {
 	  width: 75%;
 	  margin: 0px auto;
@@ -328,6 +324,7 @@ header{
 	background-color: $light;
 	width:100%;
 	padding: 100px 0px;
+	border-bottom: 1px solid $gold;
 	.project{
 		width:75%;
 		@include flex-space-between;
@@ -355,11 +352,13 @@ header{
 	}
 }
 .goldopacity{
-	background: rgba(255, 215, 0, 0.5)
+	background-color: $gold;
+	opacity: 0.5;
 }
 #contact{
 	width: 100%;
 	padding: 100px 0px;
+	border-bottom: 1px solid $gold;
 	#forms{
 		width: 50%;
 		margin: 0px auto;

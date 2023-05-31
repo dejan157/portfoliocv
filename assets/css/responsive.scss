@@ -274,22 +274,23 @@ $gold: #FFD700;
 }
 @media screen and (max-width: 660px){
     header{
-        height:60px;
         #logo{
-            display: block;
-            margin: 0px auto;
+            width: 100%;
+            text-align: center;
             img{
-                width:33px;
-                margin-left:15px;
+                width:45px;
                 margin-top: 18px;
+                margin-bottom: 0px;
             }
         }
         nav{
-            margin-right: 10px;
+            margin: 10px auto;
+            text-align: center;
+            width: 100%;
             ul li{
                 margin-left: 7px;
                 padding: 12px 1px 0px 0px;
-                font-size: 10px;
+                font-size: 12px;
             }
         }
     }
@@ -413,23 +414,6 @@ $gold: #FFD700;
     }
 }
 @media screen and (max-width: 477px){
-    header{
-        height:60px;
-        #logo{
-            img{
-                width:30px;
-                margin-left:10px;
-                margin-top: 19px;
-            }
-        }
-        nav{
-            ul li{
-                margin-left: 5px;
-                padding: 12px 1px 0px 0px;
-                font-size: 9px;
-            }
-        }
-    }
     #author{
         #description{
             h2{
