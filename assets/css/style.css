@@ -373,7 +373,6 @@ header nav ul li a:hover {
 
 #contact {
   width: 100%;
-  height: 750px;
   padding: 100px 0px;
 }
 #contact #forms {
@@ -424,7 +423,6 @@ header nav ul li a:hover {
 }
 
 footer {
-  height: 70px;
   width: 100%;
   background-color: #1a1919;
 }

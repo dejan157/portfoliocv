@@ -109,7 +109,7 @@
     width: 100%;
   }
   footer .footer-content .content .links .link a {
-    font-size: 17px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 1076px) {
@@ -134,7 +134,6 @@
   }
   #contact {
     width: 100%;
-    height: 750px;
     padding: 100px 0px;
   }
   #contact #forms {
@@ -203,10 +202,10 @@
     width: 100%;
   }
   footer .footer-content .content .copyright p {
-    font-size: 12px;
+    font-size: 14px;
   }
   footer .footer-content .content .links .link a {
-    font-size: 12px;
+    font-size: 15px;
   }
   #about, #services, #projects, #skills, #contact {
     padding: 50px 0px;
@@ -298,5 +297,40 @@
   }
   .titl {
     width: 40%;
+  }
+  footer .footer-content {
+    width: 100%;
+    flex-direction: column;
+  }
+  footer .footer-content .content {
+    width: 100%;
+  }
+  footer .footer-content .content .copyright {
+    margin: 20px auto;
+  }
+  footer .footer-content .content .copyright p {
+    font-size: 14px;
+  }
+  footer .footer-content .content .links .link a {
+    font-size: 14px;
+    margin: 10px auto;
+  }
+}
+@media screen and (max-width: 477px) {
+  header {
+    height: 60px;
+  }
+  header #logo img {
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 19px;
+  }
+  header nav ul li {
+    margin-left: 5px;
+    padding: 12px 1px 0px 0px;
+    font-size: 9px;
+  }
+  #author #description h2 {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=responsive.css.map */

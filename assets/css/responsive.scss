@@ -136,7 +136,7 @@ $gold: #FFD700;
                 .links{
                     .link{
                         a{
-                        font-size:17px;
+                        font-size:20px;
                         }
                     }
                 }
@@ -168,7 +168,6 @@ $gold: #FFD700;
     }
     #contact{
         width: 100%;
-        height:750px;
         padding: 100px 0px;
         #forms{
             width: 80%;
@@ -249,13 +248,13 @@ $gold: #FFD700;
             .content{
                 .copyright {
                     p{
-                        font-size: 12px;
+                        font-size: 14px;
                     }
                 }
                 .links{
                     .link{
                         a{
-                        font-size:12px;
+                        font-size:15px;
                         }
                     }
                 }
@@ -361,5 +360,54 @@ $gold: #FFD700;
     }
     .titl{
         width: 40%;
+    }
+    footer{
+        .footer-content{
+            width:100%;
+            flex-direction: column;
+            .content{
+                width: 100%;
+                .copyright {
+                    margin: 20px auto;
+                    p{
+                        font-size: 14px;
+                    }
+                }
+                .links{
+                    .link{
+                        a{
+                        font-size:14px;
+                        margin: 10px auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 477px){
+    header{
+        height:60px;
+        #logo{
+            img{
+                width:30px;
+                margin-left:10px;
+                margin-top: 19px;
+            }
+        }
+        nav{
+            ul li{
+                margin-left: 5px;
+                padding: 12px 1px 0px 0px;
+                font-size: 9px;
+            }
+        }
+    }
+    #author{
+        #description{
+            h2{
+                font-size: 16px;
+            }
+        }   
     }
 }
