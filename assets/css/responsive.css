@@ -59,6 +59,7 @@
   }
   #skills .container-skills #skill-wrap #other #otherSkills .os-wrap {
     width: 60%;
+    margin: 0px auto;
     padding: 20px;
   }
   #skills .container-skills #skill-wrap #other #otherSkills .os-wrap i {
