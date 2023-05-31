@@ -197,7 +197,8 @@ header nav ul li a:hover {
 }
 
 #about {
-  margin: 0px auto;
+  width: 100%;
+  background-color: #242426;
   padding: 100px 0px;
   border-bottom: 1px solid #FFD700;
 }
@@ -233,6 +234,7 @@ header nav ul li a:hover {
 }
 
 #skills {
+  width: 100%;
   background-color: #242426;
   padding: 100px 0px;
   border-bottom: 1px solid #FFD700;
@@ -332,8 +334,8 @@ header nav ul li a:hover {
 }
 
 #projects {
-  background-color: #4f4d4d;
   width: 100%;
+  background-color: #4f4d4d;
   padding: 100px 0px;
   border-bottom: 1px solid #FFD700;
 }
@@ -369,6 +371,7 @@ header nav ul li a:hover {
 
 #contact {
   width: 100%;
+  background-color: #242426;
   padding: 100px 0px;
   border-bottom: 1px solid #FFD700;
 }

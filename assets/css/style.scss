@@ -8,6 +8,16 @@ $gold: #FFD700;
   display: flex;
   justify-content: space-between;
 }
+@mixin light{
+	width: 100%;
+	background-color: $light;
+	padding: 100px 0px;
+}
+@mixin medium{
+	width: 100%;
+	background-color: $medium;
+	padding: 100px 0px;
+}
 *{
 	padding:0px;
 	margin:0px;
@@ -146,9 +156,7 @@ header{
     }
 }
 #services{
-	width: 100%;
-	background-color: $light;
-	padding: 100px 0px;
+	@include light;
 	border-bottom: 1px solid $gold;
 	.service{
 		@include flex-space-between;
@@ -190,8 +198,7 @@ header{
 	margin-left: 50px;
 }
 #about{
-	margin:0px auto;
-	padding: 100px 0px;	
+	@include medium;
 	border-bottom: 1px solid $gold;
 	.container-about{
 		display: flex;
@@ -229,8 +236,7 @@ header{
 	}
 }
 #skills {
-	background-color: $medium;
-	padding: 100px 0px;
+	@include medium;
 	border-bottom: 1px solid $gold;
 	.container-skills {
 	  width: 75%;
@@ -321,9 +327,7 @@ header{
 	}
   }
 #projects{
-	background-color: $light;
-	width:100%;
-	padding: 100px 0px;
+	@include light;
 	border-bottom: 1px solid $gold;
 	.project{
 		width:75%;
@@ -355,8 +359,7 @@ header{
 	opacity: 0.1;
 }
 #contact{
-	width: 100%;
-	padding: 100px 0px;
+	@include medium;
 	border-bottom: 1px solid $gold;
 	#forms{
 		width: 50%;
