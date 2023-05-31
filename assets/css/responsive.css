@@ -173,8 +173,12 @@
   .marginLeft {
     margin-left: 0px;
   }
+  #projects .project .pro img {
+    width: 100%;
+    height: 200px;
+  }
   #services .service {
-    width: 85%;
+    width: 60%;
     font-size: 30px;
     display: flex;
     justify-content: space-around;
@@ -205,6 +209,46 @@
   }
 }
 @media screen and (max-width: 660px) {
+  header {
+    height: 60px;
+  }
+  header #logo img {
+    width: 33px;
+    margin-left: 15px;
+    margin-top: 18px;
+  }
+  header nav {
+    margin-right: 10px;
+  }
+  header nav ul li {
+    margin-left: 7px;
+    padding: 12px 1px 0px 0px;
+    font-size: 10px;
+  }
+  #author {
+    height: 500px;
+    border-bottom: 30px solid #FFD700;
+  }
+  #author #description {
+    font-size: 35px;
+    height: 500px;
+  }
+  #author #description h2 {
+    font-size: 20px;
+  }
+  #author .btn {
+    padding: 10px 10px;
+    font-size: 10px;
+    top: 50px;
+    letter-spacing: 2px;
+  }
+  #author .arrow a {
+    font-size: 40px;
+    top: 40px;
+  }
+  .top {
+    margin-top: 150px;
+  }
   #about .container-about {
     flex-direction: column;
   }
@@ -213,27 +257,28 @@
     margin: 0px auto;
   }
   #about .container-about #me img {
-    width: 80%;
-    margin: 30px auto;
+    width: 70%;
+    margin: 15px auto;
+    box-shadow: 3px 3px 4px 0px #FFD700;
   }
   #about .container-about .desc {
     width: 50%;
   }
   #about .container-about .desc p {
-    text-align: start;
-    font-size: 14px;
+    text-align: center;
+    font-size: 12px;
   }
   #about .container-about .desc h3 {
-    text-align: start;
-    font-size: 16px;
+    text-align: center;
+    font-size: 14px;
   }
   #about .container-about .line {
     display: block;
     height: 2px;
-    width: 250px;
+    width: 200px;
     margin: 20px auto;
   }
   .titl {
-    font-size: 7px;
+    width: 40%;
   }
 }/*# sourceMappingURL=responsive.css.map */
